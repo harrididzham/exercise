@@ -1,0 +1,168 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <style>  
+        #borderimg {  
+         border: 3px solid rgb(0, 135, 27); 
+         padding: 5px; 
+         width: 49%; 
+         background-color: rgb(88, 255, 127); 
+    } 
+    </style> 
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
+    <link rel="stylesheet" href="w3.css"> 
+    <title>User Form</title>  
+</head>  
+<body bgcolor="lightgreen">  
+ 
+<center>  
+ 
+    <div class="w3-cursive" id="borderimg"> 
+        <p class="w3-xlarge">USER FORM</p>  
+        <table style="text-align: justify;">  
+            <tr>  
+            <ul type="disc">  
+                <th><li>FIRST NAME</li></th>  
+                <td><input type="text" id="nama" name="Admin" placeholder="Name" size="41"></td>  
+            </ul>  
+            </tr>  
+              
+            <tr>  
+            <ul>  
+                <th><li>PASSWORD</li></th>  
+                <td><input type="password" name="password" minlength="4" maxlength="10" 
+                    placeholder="Password" size="41"></td>  
+            </ul>  
+            </tr>  
+  
+            <tr>  
+            <ul>  
+                <th><li>GENDER</li></th>  
+                <td><input type="radio" name="gender" value="MALE" id="male1">  
+                    <label for="male1">Male</label>  
+                    <input type="radio" name="gender" value="FEMALE" id="female1">  
+                    <label for="female1">Female</label></td>  
+            </tr>  
+  
+            <tr>  
+            <ul>  
+                <th><li>ADDRESS</li></th>  
+                <td><textarea name="Address" id="address" cols="40" rows="10"></textarea></td>  
+            </ul>  
+            </tr>  
+  
+            <tr>  
+            <ul>  
+            <th><li><label for="dob">D.O.B</label></li></th>  
+                <td><select name="dob" id="DOB">  
+                <option value="BULAN" disabled>Bulan</option> 
+                <option value="JAN">Jan</option>  
+                <option value="Feb">Feb</option>  
+                <option value="MARCH">March</option>  
+                <option value="APRIL">April</option>  
+                <option value="MEI">Mei</option>  
+                <option value="JUN">JUN</option>  
+                <option value="JULAI">Julai</option>  
+                <option value="OGOS">Ogos</option>  
+                <option value="SEPTEMBER">September</option>  
+                <option value="oktober">Oktober</option>  
+                <option value="NOV">November</option>  
+                <option value="DIS">Disember</option>  
+                </select>  
+  
+                <select name="dob" id="DOB">  
+                <option value="1">1</option>  
+                <option value="2">2</option>  
+                <option value="3">3</option>  
+                <option value="4">4</option>  
+                <option value="5">5</option>  
+                <option value="6">6</option>  
+                <option value="7">7</option>  
+                <option value="8">8</option>  
+                <option value="9">9</option>  
+                <option value="10">10</option>  
+                <option value="11">11</option>  
+                <option value="12">12</option>  
+                <option value="13">13</option>  
+                <option value="14">14</option>  
+                <option value="15">15</option>  
+                <option value="16">16</option>  
+                <option value="17">17</option>  
+                <option value="18">18</option>  
+                <option value="19">19</option>  
+                <option value="20">20</option>  
+                <option value="21">21</option>  
+                <option value="22">22</option>  
+                <option value="22">23</option>  
+                <option value="24">24</option>  
+                <option value="25">25</option>  
+                <option value="26">26</option>  
+                <option value="27">27</option>  
+                <option value="28">28</option>  
+                <option value="29">29</option>  
+                <option value="30">30</option>  
+                <option value="31">31</option>  
+                </select>  
+  
+                <select name="dob" id="DOB"> 
+                <option value="1990">1990</option> 
+                <option value="1999">1999</option> 
+                <option value="2000">2000</option>  
+                <option value="2001">2001</option>  
+                <option value="2002">2002</option>  
+                <option value="2003">2003</option>  
+                <option value="2004">2004</option> 
+                <option value="2005">2005</option>  
+                <option value="2006">2006</option>  
+                <option value="2007">2007</option>  
+                <option value="2008">2008</option>  
+                <option value="2009">2009</option>  
+                <option value="2010">2010</option>  
+                </select>  
+            </td>      
+            </ul>  
+            </tr>  
+  
+            <tr>  
+            <ul>  
+                <th><li>SELECT GAMES</li></th>  
+                <td><input type="checkbox" name="sport" value="hockey">  
+                    <label for="Hockey">Hockey</label>  
+                    <input type="checkbox" name="sport" value="football">  
+                    <label for="Football">Football</label>  
+                    <input type="checkbox" name="sport" value="criket">  
+                    <label for="Cricket">Cricket</label>  
+                    <input type="checkbox" name="sport" value="volleyball">  
+                    <label for="VolleyBall">VolleyBall</label></td>  
+            </ul>  
+            </tr>  
+  
+            <tr>  
+            </ul>  
+                <th><li>MARITAL STATUS</li></th>  
+                <td><input type="radio" name="STATUS" value="MARRIED"   id="married1">  
+                    <label for="married1">Married</label>    
+                    <input type="radio" name="STATUS" value="UNMARRIED" id="unmarried1">  
+                    <label for="unmarried1">Unmarried</label></td>   
+            </ul>  
+            </tr>  
+  
+            <tr>  
+                <th></th> 
+                <th><input type="submit"name="button" value="Submit">  
+                    <input type="reset" name="button" value="Reset"></th>  ZZ
+            </tr>  
+  
+            <tr>  
+                <td colspan="2" style="text-align: center;"><input type="checkbox" name="ACCEPT" value="accept">  
+                    <label for="Accept">I accept this agrement</label></td>  
+            </tr>  
+        </table>  
+    </div>  
+ 
+</center>  
+ 
+</body>  
+</html>
