@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="w3.css">
+    <style>
+.mySlides {display:none;}
+</style>
+    <title>Haiwan Mamalia</title>
+</head>
+<body style="background-color: khaki;">
+<center>
+    <!--Header-->
+    <div class="w3-container w3-green">
+        <h1 class="w3-center w3-animate-right">Haiwan Mamalia</h1>
+      </div>
+
+    <!--Gambar-->
+    <div class="w3-content w3-display-container">
+      <img class="mySlides" src="c:\Users\Student\Desktop\exercise\51573574719_chevrotain.jpg" style="width:500 height=600">
+      <img class="mySlides" src="c:\Users\Student\Desktop\exercise\Humpback_Whale_underwater_shot.jpg" style="width:77%">
+      <img class="mySlides" src="c:\Users\Student\Desktop\exercise\images.jpg" style="width:77%">
+      <img class="mySlides" src="c:\Users\Student\Desktop\exercise\פארק_הכרמל_5_-_גנים_לאומיים_בצפון_הארץ_-_אתרי_מורשת_2016_(706).jpg" style="width:75%">
+    
+      <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+      <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+    </div>
+    
+    <script>
+    var slideIndex = 1;
+    showDivs(slideIndex);
+    
+    function plusDivs(n) {
+      showDivs(slideIndex += n);
+    }
+    
+    function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      if (n > x.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = x.length}
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      x[slideIndex-1].style.display = "block";  
+    }
+    </script><br>
+    <!--Kandungan Halaman Web-->
+    <p>Mamalia ialah haiwan vertebrata berbulu atau berambut dalam kelas Mammalia; haiwan-haiwan betinanya yang menghasilkan susu daripada kelenjar mamari untuk memberi makan (menyusukan anak. Nama kelas ini dijejak kepada perkataan bahasa Latin iaitu mamma "payudara".</p><br>
+
+    <p>Kira-kira 6,400 spesies mamalia yang masih wujud telah digambarkan dan dibahagikan kepada 29 order. Order yang paling besar ialah rodensia, kelawar dan Eulipotyphla (landak susu, tikus mondok, tikus kesturi, dan lain-lain); tiga order besar yang seterusnya ialah Primat (termasuk manusia, mawas, monyet dan lain-lain), Artiodactyla (setasea dan lain-lain), dan Carnivora (kucing, anjing, anjing laut dan lain-lain).</p><br>
+
+    <!--List-->
+    <style>
+        ul {
+    text-align: left;
+    }
+    </style>
+    <ul type="square">
+        <h3>Ciri-ciri Haiwan Mamalia</h3>
+        <li>Mempunyai saraf tunjang.</li>
+        <li>Bertulang belakang.</li>
+        <li>Mempunyai jantung dengan 4 ruang.</li>
+        <li>Badan dilitupi oleh bulu.</li>
+        <li>Mempunyai cuping telinga.</li>
+        <li>Mempunyai kelenjar peluh.</li>
+        <li>Mamalia betina melahirkan dan menyusukan anak, kecuali mamalia yang sangat primitif seperti platipus dan sesetengah tenggiling.</li>
+        <li>Bernafas melalui peparu.</li>
+        <li>Berdarah panas (suhu badan tetap).</li>
+    </ul><br>
+
+    <p>Sumber Rujukan: <a href=https://ms.wikipedia.org/wiki/Mamalia>Visit wikipedia.org</a></p>
+
+    <!--footer-->
+    <div class="w3-container w3-green w3-left-align"
+    <h5>Hakcipta terpelihara &copy Harrisyem</h5>
+    <p class="w3-tiny w3-left-align">
+        pihak penganjur tidak bertanggungjawab diatas segala masalah
+        yang dihadapi oleh pengguna sistem ini<br>
+        Terima kasih kerana telah membaca penerengan saya.
+    </p>
+    </div>
+
+</center>
+</body>
+</html>
